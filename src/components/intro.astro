@@ -1,0 +1,36 @@
+---
+import { Icon } from "astro-icon/components";
+import ContentSection from "~/components/content-section.astro";
+---
+
+<ContentSection title="Coastal Employer Strategies" id="intro">
+  <!-- <Icon slot="eyebrow" name="logomark" class="size-32" /> -->
+  <img
+    slot="eyebrow" 
+    src="/src/assets/comp-logo.png"
+    alt="Astro illustration"
+    class="w-full max-w-3xl mx-auto"
+  />
+  <Fragment slot="lead">
+    Call to learn more about
+    <span class="text-primary">EOR</span> and
+    <span class="text-primary">staffing services</span> for 
+    <span class="text-primary">armed and unarmed </span>security guard services.
+  </Fragment>
+  <!-- <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+    <a
+      href="https://docs.astro.build/"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon name="mdi:telescope" class="size-8" />
+      <span>Read the docs</span>
+    </a>
+    <a
+      href="https://astro.new/"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon name="mdi:rocket" class="size-8" />
+      <span>Try it out</span>
+    </a>
+  </div> -->
+</ContentSection>
