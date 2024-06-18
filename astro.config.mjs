@@ -5,6 +5,6 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
   site: "https://Gmander.github.io/",
-  base: 'ces',
+  // base: 'ces',
   integrations: [tailwind(), icon()],
 });
